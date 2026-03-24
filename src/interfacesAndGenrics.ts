@@ -134,3 +134,6 @@ const errorResponse: ApiResponse<null> = {
 
 console.log(userResponse) // Output: {data: {name: "Vinay", age: 30}, status: 200}
 console.log(errorResponse) // Output: {data: null, status: 500, error: "Internal Server Error"}
+
+
+// .d.ts file me hum type declarations karte hai, jisse hum apne code me use kar sakte hai, bina implementation ke. Ye file TypeScript ke liye hoti hai, jisme hum interfaces, types, aur generics declare karte hai, jise hum apne code me import karke use kar sakte hai.
